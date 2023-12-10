@@ -1,24 +1,23 @@
-nav{
-    background: #c9bfbf;
-    grid-area: nav;
-}
-header{
-    background: #707070;
-    grid-area: header;
+p {
+    background: #ffd9d9;
+    border-bottom: 4px solid red;
+    padding-top: 15px;
+    margin: -10px;
+    display: none;
+    width: auto;
+    height: 35px;
     text-align: center;
+    vertical-align: center;
 }
-section{
-    background: #ababab;
-    grid-area: section;
+
+#msg {
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 12px;
 }
-footer{
-    display: grid;
-    grid-template-areas: "header header header" "nav section section" "footer footer footer";
-    grid-template-rows: 80px 1fr 50px;
-    grid-gap: 5px;
-    height: 100vh;
-    margin: 10px;
-}
-header, nav, section, footer{
-    padding: 5px;
+
+#error {
+    color: #ff1111;
+    font-weight: bold;
+    font-size: 12px;
 }
